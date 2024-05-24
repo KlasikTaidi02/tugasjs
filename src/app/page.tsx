@@ -6,7 +6,6 @@ export default function Home() {
   let linkImage = "https://cdn2.thecatapi.com/images";
   return (
     <main>
-      <h1>Hallo</h1>
 
       <div className="flex justify-center">
         <div className="grid grid-cols-4 gap-5">
@@ -14,6 +13,12 @@ export default function Home() {
           <ItemCard name="Bombay" imgCat={`${linkImage}/5iYq9NmT1.jpg`} />
           <ItemCard name="Cheetoh" imgCat={`${linkImage}/IFXsxmXLm.jpg`} />
           <ItemCard name="Donskoy" imgCat={`${linkImage}/3KG57GfMW.jpg`} />
+          <ItemCard name="Dream" imgCat={`${linkImage}/1q4.jpg`} />
+          <ItemCard name="Egyptian Mau" imgCat={`${linkImage}/1q4.jpg`} />
+          <ItemCard name="Exotic Shorthair" imgCat={`${linkImage}/1q4.jpg`} />
+          <ItemCard name="Havana" imgCat={`${linkImage}/1q4.jpg`} />
+          <ItemCard name="Himalayan" imgCat={`${linkImage}/1q4.jpg`} />
+
         </div>
       </div>
     </main>
